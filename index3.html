@@ -1,0 +1,82 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('HD-wallpaper-dark-seamless-pattern-black-cafe-chat-drawing-icon-love-social-theme.jpg');
+            background-size: auto;
+            background-position: center;
+        }
+        .container {
+            max-width: 300px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #0d0441;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+        .message {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #0bb630;
+        }
+        .user-message {
+            text-align: right;
+            background-color: #d0f0ff;
+        }
+        textarea {
+            width: calc(100% - 22px);
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            resize: vertical;
+        }
+        button {
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+        .chat{
+          background-color: black;
+          width: 100%;
+          border: 2px black solid;
+          text-decoration: bisque;
+          
+        }
+
+    </style>
+</head>
+<body>
+  <div id="chat">Chat</div>
+
+    <div class="container">
+
+        <div class="message">Hello!</div>
+        <div class="message user-message">how are you?</div>
+        <div class="message">hi shalindra aporiya, i am good how are you? </div>
+        <div class="message user-message">i am fine and learning html and CSS</div>
+        <div class="message">html and css</div>
+        <div class="message user-message">yes, by doing project paralally and learning it</div>
+        <div class="message">Awesome, tell you hou are you learning it</div>
+        <div class="message user-message">can i coll you?</div>
+
+        <textarea id="messageInput" placeholder="Type your message here..."></textarea>
+        <button id="sendMessage">Send</button>
+    </div>
+</body>
+</html> 
+
+
+
+
+
